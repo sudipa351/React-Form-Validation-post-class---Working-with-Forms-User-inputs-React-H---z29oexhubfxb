@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background:linear-gradient(to right,rgb(232, 48, 232), pink);
+  }
+  
+  .outline {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    max-height: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+  }
+  
+  .outline .container .inner {
+    margin: 70px;
+  }
+  
+  .outline .container .fields {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .outline .container .inner .wrong-fields {
+    display: flex;
+    justify-content: center;
+    color: red;
+  }
+  .outline .container .inner .fields >label {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .outline .container .inner .fields >input {
+    min-height: 30px;
+    min-width: 400px;
+    font-size: 17px;
+    font-family: 'Oxygen', sans-serif;
+    border: 2px solid rgba(0,0,0,0.75);
+    border-radius: 7px;
+    padding-left: 5px;
+    color: black
+  }
+  
+  
+  .outline .container > button:hover{
+    cursor: pointer;
+  }
+  
+  .outline .container > button {
+    display:flex;
+    justify-self: center;
+    height: 30px;
+    width: 50px;
+    font-weight: bold;
+  }
+  
+  .outline .container .submission {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .outline .container .submission > button:hover {
+    cursor: pointer;
+  }
+  
+  .outline .container .submission > button {
+    width: 75px;
+    height: 30px;
+    font-weight: bold;
+  }
